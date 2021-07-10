@@ -96,7 +96,7 @@ window.addEventListener('DOMContentLoaded', function() {
     close.addEventListener('click', function() {
         overlay.style.display = 'none';
         this.classList.remove('more-splash');
-        document.body.style.overflow = '';
+        document.body.style.overflow = 'inherit';
     });
 
 
